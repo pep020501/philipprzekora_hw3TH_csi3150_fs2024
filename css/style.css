@@ -7,7 +7,7 @@
 * {
 box-sizing: border-box;
 font-family: 'Times New Roman', Times, serif;
---header-primary: #d7b700;
+--header-primary: #ffde20;
 --font-primary: #ffffff;
 
 }
@@ -52,23 +52,58 @@ font-family: 'Times New Roman', Times, serif;
 
 /* intro section */
 .intro {
-    background-image: url("../assets/images/pexels-myersmc16-1036661.jpg");
+    background-image: url("../assets/images/pexels-joellen-moths-1800970-3390974.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
+    display: flex; 
     
 }
 
+/* left-side content */
 .intro .left-intro{
-    
     justify-content: space-between;
     flex-direction: column;
-    margin-left: 20px;
-   
+    margin-left: 160px;   
 }
 
+/* section heading */
 .intro .left-intro h2{
-    margin-top: 100px;
+  margin-top: 50px;
+  color: var(--header-primary);
+  font-size: 45px;
+  font-family: "Merriweather", serif;
 }
+
+/* right-side content */
+.intro .right-intro {
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+}
+
+/* right-side paragraph */
+.intro .right-intro p{
+    color: var(--font-primary);
+    text-align: left;
+}
+
+/* call to action button (not functional) */
+.intro .right-intro .ctn-button{
+    background: var(--header-primary);
+    border-width: 1px;
+    font-family: "Poppins", serif;
+    height: 40px;
+    width: 100px;
+    transition: color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+/* event where user hovers over the button with cursor */
+.intro .right-intro .ctn-button:hover{
+    background: #ce2a2a;
+    color:#ffffff;
+}
+
 
 
