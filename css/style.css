@@ -172,7 +172,7 @@ font-family: 'Times New Roman', Times, serif;
 /* activity container icon */
 .activity-icon{
     color:var(--header-primary);
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     margin-top: 250px;
     transition: color 0.6s ease;
@@ -186,7 +186,7 @@ font-family: 'Times New Roman', Times, serif;
 /* "more info" button (not functional) */
 .activities .ctn-button{
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     height:40px;
     width: 100px;
     background: var(--header-primary);
