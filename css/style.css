@@ -1,15 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Prociono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url();
 
 /* browser defaults */
 * {
 box-sizing: border-box;
 font-family: 'Times New Roman', Times, serif;
---header-primary: #ffde20;
+--header-primary: #c1a715;
 --font-primary: #ffffff;
-
 }
 
 /* hero section */
@@ -48,6 +47,12 @@ font-family: 'Times New Roman', Times, serif;
     color: var(--header-primary);
     font-size: 50px;
     margin-bottom: 20px;
+    transition: color 0.6s ease;
+}
+ 
+/* event where use hovers over icon with cursor */
+.hero .hero-icon:hover {
+   color:var(--font-primary);
 }
 
 /* intro section */
@@ -104,5 +109,93 @@ font-family: 'Times New Roman', Times, serif;
     color:#ffffff;
 }
 
+/* acitvities section */
+.activities {
+    background-image: url("../assets/images/pexels-myersmc16-1036661.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
 
+/* activities section header */
+.activities .section-header {
+    margin-top: 30px;
+    color: var(--header-primary);
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+/* wrapper for activties containers */
+.activities .activities-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    margin-top: 15px;
+}
+
+/* activities container(s) */
+.activities .activities-wrapper .activities-container-1{
+    background-image: url('../assets/images/pexels-alfomedeiros-11573878.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.activities .activities-wrapper .activities-container-2{
+    background-image: url('../assets/images/pexels-chris-f-38966-11616142.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.activities .activities-wrapper .activities-container-3{
+    background-image: url('../assets/images/pexels-chase-yaws-192435414-11513529.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+/* activity container title */
+.activity-title{
+  color: var(--font-primary);
+  margin-top: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* activity container icon */
+.activity-icon{
+    color:var(--header-primary);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 250px;
+    transition: color 0.6s ease;
+}
+
+/* event where user hovers over icon with cursor */
+.activity-icon:hover{
+    color:var(--font-primary);
+}
+
+/* "more info" button (not functional) */
+.activities .ctn-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height:40px;
+    width: 100px;
+    background: var(--header-primary);
+    color: var(--font-primary);
+    transition: color 0.3s ease-in-out;
+}
+
+/* event where user hovers over button with cursor */
+.activities .ctn-button:hover{
+    background: #ce2a2a;
+    color: #000000;
+}
