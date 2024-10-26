@@ -335,6 +335,7 @@ font-family: 'Times New Roman', Times, serif;
     height: 400px;
 }
 
+/* footer section */
 .footer-main{
     display: flex;
     flex-direction: row;
@@ -344,11 +345,13 @@ font-family: 'Times New Roman', Times, serif;
     gap: 200px;
 }
 
+/* footer section left content */
 .footer-main .left-content {
     margin-top: 15px;
     margin-left: 100px;
 }
 
+/* contact header */
 .footer-main .left-content .section-header{
     color: var(--header-primary);
     font-size: 60px;
@@ -356,12 +359,14 @@ font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
 }
 
+/* contact list */
 .footer-main .left-content ul{
     list-style-type: none;
     color:var(--font-primary);
     margin-bottom: 30px;
 }
 
+/* social icons */
 .footer-main .left-content .icon-wrapper{
     color:var(--header-primary);
     font-size: 25px;
@@ -369,13 +374,13 @@ font-family: 'Times New Roman', Times, serif;
     transition: all 0.3s;
 }
 
-
+/* footer right content */
 .footer-main .right-content {
     margin-top: 90px;
     margin-bottom: 50px;
-
 }
 
+/* text forms */
  .footer-main .right-content form{
     display: flex;
     flex-direction: column;
@@ -390,14 +395,17 @@ font-family: 'Times New Roman', Times, serif;
     width: 400px;
     flex-direction: column;
     border-color: var(--font-primary);
+    color: var(--font-primary);
 }
 
 .footer-main .right-content textarea{
     background: transparent;
     height: 100px;
     border-color: var(--font-primary);
+    color: var(--font-primary);
 }
 
+/* submit contact info button */
 .footer-main .right-content .btn-submit{
     height: 40px;
     width: 100px;
@@ -405,7 +413,7 @@ font-family: 'Times New Roman', Times, serif;
     transition: all 0.3s ease-out;
 }
 
-
+/* event where useer hovers over button and it changes color */
 .footer-main .right-content .btn-submit:hover{
     color:var(--font-primary);
     background: var(--header-primary);
